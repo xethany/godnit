@@ -1,0 +1,167 @@
+.body {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 400;
+}
+#title {
+  background-color: #FF4C68;
+  color: #fff;
+  padding-bottom: 20px;
+}
+p {
+  color: #8f8f8f;
+}
+.h3txt {
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+.h2txt {
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+.h1dog {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  size: 7rem;
+  line-height: 1.5;
+}
+ /* Navigation Bar */
+.nav-item {
+  padding: 0 10px;
+
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+
+
+/* Buttons */
+
+
+/* Title Image */
+.Title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  margin-left: 10%;
+}
+
+/* Feature */
+
+#features {
+  padding: 7% 10%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.feature-box {
+  text-align: center;
+  background-color: white;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #FF4C68;
+}
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+.test-img {
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 35px 20px;
+}
+.carousel-item {
+    padding: 7% 15% ;
+}
+.card-group {
+  width: 80%;
+  margin: auto;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col {
+  padding: 7% 2%;
+}
+
+#cta {
+  background-color: #FF4C68;
+  padding: 7% 15%;
+  color: #fff;
+  text-align: center;
+}
+.cta-heading {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  width: 50;
+}
+.cta-btn {
+  margin: 5% 1% 5%;
+}
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+.footer-btn {
+  color: grey;
+  margin: 20px 10px;
+}
+.btn-1:hover {
+  color: #3B5598;
+}
+.btn-2:hover {
+  color: ##1DA1F2;
+}
+.btn-3:hover {
+  color: red;
+}
+.btn-4:hover {
+  color: green;
+}
+.copyright {
+  margin-top: 20px;
+}
+@media (max-width: 993px) {
+  .Title-image {
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+  }
+  #title {
+    text-align: center;
+  }
+}
